@@ -1,4 +1,4 @@
-name: End-to-end tests
+name: cypress_test_runner
 on: push
 jobs:
   cypress-run:
@@ -10,4 +10,3 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v6
-  

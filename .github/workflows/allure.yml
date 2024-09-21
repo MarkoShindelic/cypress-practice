@@ -1,0 +1,11 @@
+name: cypress_test_runner
+on: push
+jobs:
+    allure:
+        name: any human-redable name, e.g., “Publish test report”.
+        uses: peaceiris/actions-gh-pages@v3.
+        if: always()
+        with:
+            #github_token: ${{ secrets.GITHUB_TOKEN }}. See Enable write access for GitHub Actions for more details.
+            publish_branch: the branch used for the GitHub Pages content.
+            publish_dir: the directory to be published. Must be the same as the allure_history value from the Build test report step.
