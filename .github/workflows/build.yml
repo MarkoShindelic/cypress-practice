@@ -12,7 +12,7 @@ jobs:
         uses: cypress-io/github-action@v6
  
       - name: Publish test report
-        uses: peaceiris/actions-gh-pages@v3.
+        uses: peaceiris/actions-gh-pages@v3
         if: always()
         with:
             #github_token: ${{ secrets.GITHUB_TOKEN }}. See Enable write access for GitHub Actions for more details.
