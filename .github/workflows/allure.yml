@@ -1,24 +1,12 @@
-name: Create Cypress report
-on:
-  push:
-    branches:
-      - "feature"
+name: End-to-end tests
+on: push
 jobs:
-  cypress-e2e-chrome81:
-    name: Run on Chrome 81
-    runs-on: ubuntu-latest
-    container: cypress/browsers:node12.16.2-chrome81-ff75
-
+  cypress-run:
+    runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v2
-      - name: Run Cypress tests
-        run: npm run test:chrome
-        continue-on-error: true
-
-      - name: Generate HTML report
-        run: npm run report:generate
-      - name: Deploy report page
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+      - name: Checkout
+        uses: actions/checkout@v4
+      # Install npm dependencies, cache them correctly
+      # and run all Cypress tests
+      - name: Cypress run
+        uses: cypress-io/github-action@v6
