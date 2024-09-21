@@ -9,3 +9,5 @@ export const basePage = new BasePage();
 export const checkboxPage = new CheckboxPage();
 export const loginPage = new LoginPage();
 export const securePage = new SercurePage();
+
+//just test
