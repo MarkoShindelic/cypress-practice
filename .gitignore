@@ -2,3 +2,4 @@ node_modules/
 screenshots/
 allure-report/
 allure-results/
+cypress_test_runner.yml
