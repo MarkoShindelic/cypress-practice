@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","847","loging with empty username","","Sat Sep 21 18:53:13 CEST 2024","passed","Sat Sep 21 18:53:14 CEST 2024","","login page tests","login page tests","loging with empty username"
+"","3125","click checkbox one test","","Sat Sep 21 18:53:04 CEST 2024","passed","Sat Sep 21 18:53:07 CEST 2024","","first","first","click checkbox one test"
+"","710","login with empty password","","Sat Sep 21 18:53:13 CEST 2024","passed","Sat Sep 21 18:53:13 CEST 2024","","login page tests","login page tests","login with empty password"
+"","1029","login invalid credentials","","Sat Sep 21 18:53:12 CEST 2024","passed","Sat Sep 21 18:53:13 CEST 2024","","login page tests","login page tests","login invalid credentials"
+"","3377","login valid credentials","","Sat Sep 21 18:53:08 CEST 2024","passed","Sat Sep 21 18:53:12 CEST 2024","","login page tests","login page tests","login valid credentials"
