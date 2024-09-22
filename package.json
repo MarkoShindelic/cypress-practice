@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "test:chrome": "cypress run --browser chrome",
-    "test:firefox": "cypress run -b firefox"
+    "test:firefox": "cypress run -b firefox",
+    "test:edge": "cypress run -b edge"
   },
   "keywords": [],
   "author": "",
