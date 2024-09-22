@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","723","login with empty password","","Sun Sep 22 01:31:07 UTC 2024","passed","Sun Sep 22 01:31:08 UTC 2024","","login page tests","login page tests","login with empty password"
+"","3146","click checkbox one test","","Sun Sep 22 01:29:45 UTC 2024","passed","Sun Sep 22 01:29:48 UTC 2024","","first","first","click checkbox one test"
+"","1038","login invalid credentials","","Sun Sep 22 01:31:06 UTC 2024","passed","Sun Sep 22 01:31:07 UTC 2024","","login page tests","login page tests","login invalid credentials"
+"","3162","click checkbox one test","","Sun Sep 22 01:30:58 UTC 2024","passed","Sun Sep 22 01:31:01 UTC 2024","","checkbox tests","checkbox tests","click checkbox one test"
+"","867","loging with empty username","","Sun Sep 22 01:31:08 UTC 2024","passed","Sun Sep 22 01:31:09 UTC 2024","","login page tests","login page tests","loging with empty username"
+"","3535","login valid credentials","","Sun Sep 22 01:31:02 UTC 2024","passed","Sun Sep 22 01:31:06 UTC 2024","","login page tests","login page tests","login valid credentials"
