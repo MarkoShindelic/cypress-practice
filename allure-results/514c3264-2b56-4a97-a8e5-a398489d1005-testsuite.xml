@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1726968658655' stop='1726968661818'>
+    <name>checkbox tests</name>
+    <title>checkbox tests</title>
+    <test-cases>
+        <test-case start='1726968658656' status='passed' stop='1726968661818'>
+            <name>click checkbox one test</name>
+            <title>click checkbox one test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
