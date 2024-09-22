@@ -2,7 +2,7 @@
 
 import { checkboxPage } from "../pages/index";
 
-describe('first', () => { 
+describe('checkbox tests', () => { 
 
     beforeEach(() => {
         cy.visit('https://the-internet.herokuapp.com/checkboxes')
