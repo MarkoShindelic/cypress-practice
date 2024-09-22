@@ -11,16 +11,16 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
 
-      ## Allure report 
+      ## Allure report
       - name: Generate Allure Report
         run: |
-              npm install -g allure-commandline
-              allure generate allure-results -o allure-report --clean
-      ## Deploy step      
+          npm install -g allure-commandline
+          allure generate allure-results -o allure-report --clean
+      ## Deploy step
       - name: Deploy Allure Report to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }} 
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./allure-report
-          publish_branch: feature
+          publish_branch: gh-pages
           keep_files: false
